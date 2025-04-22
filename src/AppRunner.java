@@ -32,8 +32,8 @@ public class AppRunner {
         boolean isExis=true;
         while (isExis) {
             try {
-                isExis=false;
                 int choicePayment = new Scanner(System.in).nextInt();
+                isExis=false;
                 switch (choicePayment) {
                     case 1:
                         System.out.println("вы выбрали способ оплаты купюрой");
