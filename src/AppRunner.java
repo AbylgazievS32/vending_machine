@@ -27,9 +27,9 @@ public class AppRunner {
     }
 
     public static void choicePayment() {
+        boolean isExis=true;
         System.out.println("выберите способ оплаты:");
         System.out.println("нажмите 1 для того что бы оплатить купюрой\n2 для оплаты монетами \nпри вводе любой другой цифры будет выбран оплата монетами");
-        boolean isExis=true;
         while (isExis) {
             try {
                 int choicePayment = new Scanner(System.in).nextInt();
